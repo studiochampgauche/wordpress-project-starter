@@ -37,6 +37,7 @@ export default class App{
 		this.gscroll.paused(true);
 		this.gscroll.scrollTop(0);
 		ScrollTrigger.refresh();
+		ScrollTrigger.getAll().forEach(t => t.kill());
 	}
 
 	onEnter(container, namespace){
