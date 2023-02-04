@@ -1,0 +1,15 @@
+$mainColor: #fff;
+$secondColor: #000;
+
+$font_path: '../fonts/';
+$image_path: '../images/';
+
+// Breakpoints in detail
+$break-xxs: 320px; // Mobile
+$break-xs: 540px; // Mobile
+$break-s: 768px; // Regular Ipad orientation portrait
+$break-m: 1024px; // Desktop / Ipad Pro orientation portrait / Regular Ipad orientation landscape
+$break-ml: 1280px;
+$break-l: 1366px; // Desktop or Ipad Pro orientation landscape
+$break-xl: 1600px; // Desktop
+$break-xxl: 1920px; // Desktop
