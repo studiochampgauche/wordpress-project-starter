@@ -69,8 +69,6 @@ export default class App{
 			wrapper: '#pageWrapper',
 			content: '#pageContent',
 			ignoreMobileResize: true,
-			normalizeScroll: true,
-			smoothTouch: .1,
 			smooth: 1
 		});
 
