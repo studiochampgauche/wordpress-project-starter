@@ -1,6 +1,6 @@
+	<footer></footer>
 </main>
 
-<footer></footer>
 </div>
 </div>
 </div>
