@@ -16,7 +16,7 @@
     @media only screen and (#{$type}-width: $break-m) { @content; }
   }
 
-  @if $media == med-large {
+  @if $media == mlarge {
     @media only screen and (#{$type}-width: $break-ml) { @content; }
   }
 
