@@ -22,6 +22,8 @@ class Main{
 
 		barba.init({
 			debug: false,
+			cacheIgnore: true,
+			prefetchIgnore: true,
 			preventRunning: true,
 			transitions: [
 				{
