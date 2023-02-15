@@ -304,6 +304,8 @@ class scg{
 			*/
 			if($normal && !empty(self::field('image_sn')))
 				$og_image = self::field('image_sn');
+			elseif($normal && !empty(self::field('global_seo_image_sn')))
+				$og_image = self::field('global_seo_image_sn');
 
 
 
