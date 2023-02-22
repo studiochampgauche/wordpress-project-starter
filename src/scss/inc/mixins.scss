@@ -33,7 +33,7 @@
   }
 
   @else {
-    @media only screen and (#{$type}-width: #{$media}) { @content; }
+    @media only screen and (#{$type}-width: $media) { @content; }
   }
 
 }
