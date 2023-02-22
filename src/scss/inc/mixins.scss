@@ -4,32 +4,36 @@
     @media only screen and (#{$type}-width: $break-xxs) { @content; }
   }
 
-  @if $media == xsmall {
+  @else if $media == xsmall {
     @media only screen and (#{$type}-width: $break-xs) { @content; }
   }
 
-  @if $media == small {
+  @else if $media == small {
     @media only screen and (#{$type}-width: $break-s) { @content; }
   }
 
-  @if $media == medium {
+  @else if $media == medium {
     @media only screen and (#{$type}-width: $break-m) { @content; }
   }
 
-  @if $media == mlarge {
+  @else if $media == mlarge {
     @media only screen and (#{$type}-width: $break-ml) { @content; }
   }
 
-  @if $media == large {
+  @else if $media == large {
     @media only screen and (#{$type}-width: $break-l) { @content; }
   }
 
-  @if $media == xlarge {
+  @else if $media == xlarge {
     @media only screen and (#{$type}-width: $break-xl) { @content; }
   }
 
-  @if $media == xxlarge {
+  @else if $media == xxlarge {
     @media only screen and (#{$type}-width: $break-xxl) { @content; }
+  }
+
+  @else {
+    @media only screen and (#{$type}-width: #{$media}) { @content; }
   }
 
 }
